@@ -47,6 +47,17 @@
       line-height: 1.5em;
    }
 
+   p
+   {
+      color: #111;
+      font-weight: 150;
+   }
+
+      p.aboutText
+      {
+         text-align: left;
+      }
+
       h1 a, h2 a, h3 a, h4 a, h5 a, h6 a
       {
          color: inherit;
@@ -97,7 +108,7 @@
    strong, b
    {
       font-weight: 300;
-      color: #666;
+      color: #0CF;
    }
 
    em, i
