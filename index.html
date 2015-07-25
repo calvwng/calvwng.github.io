@@ -17,6 +17,12 @@
     <script src="js/skel.min.js"></script>
     <script src="js/skel-layers.min.js"></script>
     <script src="js/init.js"></script>
+
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+    <link rel="stylesheet" href="css/github-activity-0.1.1.min.css">
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
+    <script type="text/javascript" src="js/github-activity-0.1.1.min.js"></script>
+
     <script src="js/index.js"></script>
     <noscript>
       <link rel="stylesheet" href="css/skel.css" />
@@ -119,10 +125,6 @@
                   <h2>Portfolio (Under Construction)</h2>
                 </header>
 
-                <p><Under Construction>
-                <br>I will display my notable projects here, for all to see and critique.</br>
-                </p>
-
                 <!-- Tumbax Tumblr feed container -->
                 <div id="tumbax"></div>
   <!--
@@ -173,7 +175,23 @@
 
               </div>
   -->
-            </section>
+
+           <!-- GitHub Activity Feed -->
+           <div id="gitHubActivityFeed">
+              <br/>
+              <br/>
+              <h3>What I've been working on:</h3>
+              <div id="feed"></div>
+              <script>
+                 GitHubActivity.feed({
+                     username: "calvwng",
+                    //  repository: "your-repo", // optional
+                     selector: "#feed",
+                     limit: 10 // optional
+                 });
+              </script>
+           </div>
+        </section>
 
         <!-- About Me -->
           <section id="about" class="three">
