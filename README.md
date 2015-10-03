@@ -1,4 +1,4 @@
 calvwng.github.io
 =================
 
-Repository for calvinwong.me
+Repository for calvinwong.xyz
