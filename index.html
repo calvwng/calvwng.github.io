@@ -44,7 +44,7 @@
             <div id="logo">
               <span class="image avatar100"><img src="images/cwong_profile.jpg" alt="" /></span>
               <h1 id="title">Calvin Wong</h1>
-              <p>Software Developer</p>
+              <p>Software Engineer</p>
             </div>
             <br>
 
@@ -105,9 +105,10 @@
 <!--                 <h2 class="alt">Nice to see you! <br> Apologies, but my site is currently under construction.</h2> -->
                 <h2 class="alt">Nei5 hou2! 你好!</h2>
                 <h3 class="alt">I welcome you to my very own corner of the internet. <br/>
-                  Please check back soon for more updates.<br />
-                  See you soon! :]
-                </p>
+                  Please check back soon for more updates.<br/>
+                  See you soon! :] <br/>
+                  (Feel free to the 'I', 'P', 'A', and 'C' keys to jump to corresponding sections)
+                </h3>
               </header>
 
               <footer>
@@ -122,11 +123,16 @@
               <div class="container">
 
                 <header>
-                  <h2>Portfolio (Under Construction)</h2>
+                  <h2>Portfolio</h2>
                 </header>
 
                 <!-- Tumbax Tumblr feed container -->
-                <div id="tumbax"></div>
+               <!--  <div id="tumbax"></div> -->
+               <object id="portfolioPdf" data="images/Calvin Wong Portfolium.pdf"></object>
+               <script>
+                  document.getElementById("portfolioPdf").width = $("section#top").width();
+                  document.getElementById("portfolioPdf").height = 1075;
+               </script>
   <!--
                 <div class="row">
                   <div class="4u">
@@ -202,11 +208,12 @@
               </header>
 
               <p class="aboutText">
-                &emsp;&emsp;I have the utmost admiration for instances of <b>creative charm, genuine compassion, and mental strength through adversity</b>. </br/>
-                 &emsp;&emsp;Why? Because these qualities don't just appear out of nowhere nor can they easily be faked. They're <b>built up, refined, and revisited</b> over countless personal experiences--many of which remain untold or misunderstood. </br>
-                 &emsp;&emsp;"Calvin, this is supposed to be your 'About Me' section ... why are you talking about this?" </br>
-                 &emsp;&emsp;Good question! I feel that a more fitting way to expose you to a big part of who I am is to <b>show you what I value and appreciate</b> more than anything. Plus, I'm sure you would prefer that over a listing of a bunch of archetypes and quirky interests that resonate with me! </br>
-                 &emsp;&emsp;I do enjoy a good conversation, so feel free to <a href="#contact">contact me</a> if you'd like to chat!
+                &emsp;&emsp;I am attracted to <b>manifestations of passion, technological advances, cultural discovery, and self-improvement</b>. Seeing people excited about nearly anything is a beautiful sight.
+                New advances in technology open up so many possibilities for better quality of life.
+                Underneath it all, culture is what drives the majority of our decision-making.
+                Finally, we all want to be the best versions of ourselves. <br/>
+                &emsp;&emsp;I also have the utmost admiration for instances of <b>creative charm, genuine compassion, and mental strength through adversity</b>. Why? Because these qualities don't just appear out of nowhere nor can they easily be faked. They're <b>built up, refined, and revisited</b> over countless personal experiences--many of which remain untold or misunderstood. Knowing that such qualities exist is enough to make me strive to be better!</br>
+                 &emsp;&emsp;I do enjoy a good conversation about nearly anything, so feel free to <a href="#contact">contact me</a> if you'd like to chat!
               </p>
 
             </div>
@@ -218,15 +225,15 @@
             <div class="container">
 
               <header>
-                <h2>Contact (Under Construction)</h2>
+                <h2>Contact</h2>
               </header>
 
               <p><Under Construction>
-              <br>For now, this contact form is not functional. In the meantime, please contact me at calvwng@gmail.com</br>
+              <br>If you'd like to chat, please contact me at calvwng@gmail.com</br>
               <br>Thank you!</br>
               </p>
 
-              <form method="post" action="#">
+<!--               <form method="post" action="#">
                 <div class="row half">
                   <div class="6u"><input type="text" name="name" placeholder="Name" /></div>
                   <div class="6u"><input type="text" name="email" placeholder="Email" /></div>
@@ -241,7 +248,7 @@
                     <input type="submit" value="Send Message" />
                   </div>
                 </div>
-              </form>
+              </form> -->
 
             </div>
           </section>
